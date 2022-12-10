@@ -1,0 +1,36 @@
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #7e7863;
+  
+}
+
+.title {
+  text-align: center;
+  background-color: black;
+  color: #FFE81F;
+  margin: 0;
+}
+.shipcard {
+  border: 2px solid #7e7863;
+  display:inline-block;
+  margin: 10px;
+  padding: 30px;
+  height: 300px;
+  width: 300px;
+  align-items:center;
+  border-radius: 2em;
+  background-color: #2e557c;
+  flex-direction: column;
+
+}
+.ship {
+  color:white;
+}
+
+
+
+
