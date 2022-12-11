@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import StarshipCard from "./components/StarshipCard";
+import spaceautoplay from"../src/video.mp4"
 import './App.css';
 
 function App() {
@@ -36,7 +37,10 @@ key={index}
   })  
 
   return (
-<div>
+<div className="head">
+<video autoPlay loop muted>
+<source src={spaceautoplay} type = "video/mp4"/>
+</video>
 <h1 className="title">Star Wars Starships</h1>
 
 

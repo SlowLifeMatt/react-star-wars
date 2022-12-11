@@ -4,7 +4,6 @@
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  background-color: #7e7863;
   
 }
 
@@ -23,14 +22,22 @@
   width: 300px;
   align-items:center;
   border-radius: 2em;
-  background-color: #2e557c;
+  background-color: rgb(46, 85, 124,.6);
   flex-direction: column;
 
+  /* 46, 85, 124, 0.7% ; */
 }
 .ship {
   color:white;
 }
 
-
+video {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
